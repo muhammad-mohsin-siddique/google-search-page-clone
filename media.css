@@ -1,0 +1,55 @@
+@media screen and (max-width:1024px) {
+    footer{
+    top: 19.7vh;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+}
+@media screen and (max-width:780px) {
+    footer{
+    top: 19.9vh;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    font-size: small;
+}
+}
+
+@media screen and (max-width:480px) {
+    main img{
+        width: 190px; 
+        height: 32px;
+        margin-bottom: 25px;
+        
+    }
+    footer{
+    top: 16.9vh;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: small;
+    gap: 10px;
+}
+main input{
+    width: 270px;
+    border: none;
+    outline: none;
+}
+.search-bar{
+    width: 350px;
+    height: 30px;
+    display: flex;
+    gap: 5px;
+    padding: 5px 10px;
+}
+.disable-option{
+    display: none;
+}
+}
