@@ -76,13 +76,13 @@ main{
 main img{
     width: 272px; 
     min-height: 92px;
-    margin-bottom: 25px;
-    
+    margin-bottom: 25px; 
 }
 main input{
     width: 482px;
     border: none;
     outline: none;
+    background-color: transparent;
 }
 .search-bar{
     width: 584px;

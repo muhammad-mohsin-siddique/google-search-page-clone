@@ -1,96 +1,92 @@
-@media screen and (max-width:1024px) {
-.footer-nav{
+@media screen and (max-width: 1024px) {
+  .footer-nav {
     display: flex;
     justify-content: center;
     gap: 150px;
+  }
 }
-}
-@media screen and (max-width:780px) {
-.footer-nav{
+@media screen and (max-width: 780px) {
+  .footer-nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
     font-size: small;
-}
-main input{
+  }
+  main input {
     width: 270px;
     border: none;
     outline: none;
-}
-.search-bar{
+  }
+  .search-bar {
     width: 350px;
     height: 30px;
     display: flex;
     gap: 5px;
     padding: 5px 10px;
+  }
 }
+
+@media screen and (max-height: 470px) and (orientation: landscape) {
+  main {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer {
+    position: fixed;
+    min-height: 100px;
+  }
+  .footer-nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: small;
+  }
+  main input {
+    width: 270px;
+    border: none;
+    outline: none;
+  }
+  .search-bar {
+    width: 350px;
+    height: 30px;
+    display: flex;
+    gap: 5px;
+    padding: 5px 10px;
+  }
 }
 
-
-
-
-@media screen and (max-height:470px) and  (orientation:landscape) {
-    main{
-        min-height: 350px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    footer{
-        position: fixed;
-        min-height: 100px;
-    }
-    .footer-nav{
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 10px;
-        font-size: small;
-    }
-    main input{
-        width: 270px;
-        border: none;
-        outline: none;
-    }
-    .search-bar{
-        width: 350px;
-        height: 30px;
-        display: flex;
-        gap: 5px;
-        padding: 5px 10px;
-    }
-    }
-
-
-
-@media screen and (max-width:480px) {
-    main img{
-        width: 272px; 
-        height: 92px;
-        margin-bottom: 25px;
-    }
-.footer-nav{
+@media screen and (max-width: 480px) {
+  main img 
+  {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 25px;
+  }
+  .footer-nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     font-size: small;
     gap: 10px;
-}
-main input{
+  }
+  main input {
     width: 270px;
     border: none;
     outline: none;
-}
-.search-bar{
+  }
+  .search-bar {
     width: 350px;
     height: 30px;
     display: flex;
     gap: 5px;
     padding: 5px 10px;
-}
-.disable-option{
+  }
+  .disable-option {
     display: none;
-}
+  }
 }
