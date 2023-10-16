@@ -30,7 +30,7 @@ main input{
 
 
 
-@media screen and (max-height:510px) and  (orientation:landscape) {
+@media screen and (max-height:400px) and  (orientation:landscape) {
     body{
         overflow: auto;
     }
