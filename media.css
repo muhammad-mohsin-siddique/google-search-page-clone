@@ -1,7 +1,4 @@
 @media screen and (max-width:1024px) {
-    footer{
-    top: 19.7vh;
-}
 .footer-nav{
     display: flex;
     justify-content: center;
@@ -9,10 +6,6 @@
 }
 }
 @media screen and (max-width:780px) {
-    footer{
-        width: auto;
-        top: 19.9vh;
-}
 .footer-nav{
     display: flex;
     justify-content: center;
@@ -40,9 +33,6 @@ main input{
         height: 32px;
         margin-bottom: 25px;
     }
-    footer{
-    top: 16.9vh;
-}
 .footer-nav{
     display: flex;
     justify-content: center;
