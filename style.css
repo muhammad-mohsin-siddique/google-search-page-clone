@@ -150,8 +150,8 @@ footer{
     width: 100%;
     background-color: #F2F2F2;
     color: #70757a;
-    position: relative;
-    top: 31vh;
+    position: absolute;
+    bottom: 0px;
     font-size: 14px;
 }
 
